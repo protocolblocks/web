@@ -18,3 +18,10 @@ To view git configuration parameters:
 
     >>git config --list
 
+To change windows github credentails
+
+    1. Open "Credential Manager".
+    2. Click on "Manage Windows Credentials".
+    3. Delete any credentials related to Git or GitHub.
+    4. Once you deleted all then try git again.
+
