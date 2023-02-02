@@ -1,0 +1,64 @@
+Download repository:
+
+    >>git clone https://protocolblocks@bitbucket.org/protocolblockscom/web.git
+
+To Add, Commit & Push changes:
+
+    >>git add .
+    >>git status 
+    >>git commit -m "[Place message here]"
+    >>git push
+
+Change username and email in git:
+
+    >>git config --global user.name "protocolblocks"
+    >>git config --global user.email "hello@protocolblocks.com"
+
+To view git configuration parameters:
+
+    >>git config --list
+
+When prompted to log in, use your username, but instead of your usual account password, use the app password:
+
+To get the app password:
+
+    1. Go to the bitbucket.org website and log in
+    2. From your avatar in the bottom left, and click Personal settings
+    3. Click App passwords under Access management
+    4. Click Create app password
+    5. Give the app password sufficient rights, and a label related to the application that will use the password
+
+
+
+
+
+-------------
+
+
+Download repository:
+
+    >>git clone https://github.com/protocolblocks/web.git
+
+To Add, Commit & Push changes to github:
+
+    >>git add .
+    >>git status 
+    >>git commit -m "[Place message here]"
+    >>git push
+
+Change username and email in git:
+
+    >>git config --global user.name "protocolblocks"
+    >>git config --global user.email "hello@protocolblocks.com"
+
+To view git configuration parameters:
+
+    >>git config --list
+
+To change windows github credentails
+
+    1. Open "Credential Manager".
+    2. Click on "Manage Windows Credentials".
+    3. Delete any credentials related to Git or GitHub.
+    4. Once you deleted all then try git again.
+
