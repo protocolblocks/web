@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PROTOCOL BLOCKS - Powering the Onchain Economy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Cormorant', serif;
+      background-color: #ffffff;
+      color: #1a202c;
+      font-size: 1rem; /* Base font size to align with links */
+    }
+    nav {
+      background-color: #e5e7eb;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      z-index: 10;
+    }
+    nav a:hover {
+      color: #3b82f6;
+      transition: color 0.3s;
+    }
+    #home {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #ffffff;
+      color: #1a202c;
+    }
+    #home h1 {
+      font-size: 3.75rem; /* Tailwind 6xl */
+      font-weight: 700;
+    }
+    #home p {
+      font-size: 1.5rem; /* Tailwind 2xl */
+      font-weight: 400;
+    }
+    #mission {
+      padding: 5rem 0;
+      background-color: #f3f4f6; /* Light gray for mission section */
+    }
+    #mission h2 {
+      margin-bottom: 2rem;
+    }
+    #expertise {
+      padding: 5rem 0;
+      background-color: #ffffff; /* White for expertise section */
+      color: #1a202c; /* Reset text color to dark for white background */
+    }
+    #expertise h2 {
+      margin-bottom: 2rem;
+    }
+    #expertise .bg-gray-700 {
+      background-color: #f3f4f6; /* Match Mission section background for expertise boxes */
+      border-radius: 0.5rem;
+    }
+    #expertise h3,
+    #expertise p {
+      color: #1a202c; /* Ensure text within expertise boxes is dark for readability */
+    }
+    #resources {
+      padding: 5rem 0;
+      background-color: #f3f4f6; /* Light gray for resources section */
+    }
+    #resources h2 {
+      margin-bottom: 2rem;
+    }
+    footer {
+      background-color: #e5e7eb; /* Match header background */
+      padding: 1rem 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="fixed w-full top-0 shadow-md z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16 items-center">
+        <div class="font-bold">PROTOCOL BLOCKS</div>
+        <div class="space-x-4">
+          <a href="#home" class="hover:text-blue-600 transition">HOME</a>
+          <a href="#mission" class="hover:text-blue-600 transition">MISSION</a>
+          <a href="#expertise" class="hover:text-blue-600 transition">EXPERTISE</a>
+          <a href="#resources" class="hover:text-blue-600 transition">RESOURCES</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="min-h-screen flex items-center justify-center bg-white text-gray-900">
+    <div class="text-center">
+      <h1 class="text-6xl font-bold mb-4">PROTOCOL BLOCKS</h1>
+      <p class="text-2xl mb-6"><i>Growing freedom &amp; wealth one block at a time</i></p>
+      <a href="#mission" class="bg-gray-200 text-gray-900 px-6 py-3 rounded-full font-semibold hover:bg-gray-300 transition">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section id="mission" class="py-20 bg-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-center mb-8">Mission</h2>
+      <p class="text-lg text-gray-600 text-center max-w-3xl mx-auto">
+        Ethereum serves as the base layer for the global onchain economy, reliably processing the vast majority of global onchain economic activity. Ether is the fuel that makes this possible. At Protocol Blocks, we believe the world’s financial infrastructure will be rebuilt onchain, growing wealth and freedom one block at a time. We specialize in the production of Ether through staking, restaking, and advanced DeFi strategies, empowering businesses and individuals in the decentralized economy.
+      </p>
+    </div>
+  </section>
+
+  <!-- Expertise Section -->
+  <section id="expertise" class="py-20 bg-white text-gray-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-center mb-8">Expertise</h2>
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <!-- Custody Box -->
+        <div class="p-6 bg-gray-200 rounded-lg text-center">
+          <h3 class="text-xl font-semibold mb-4">Custody</h3>
+          <p class="text-gray-900">Offering secure crypto custody solutions to safeguard your digital assets with industry-leading standards.</p>
+        </div>
+        <!-- Staking Solutions -->
+        <div class="p-6 bg-gray-200 rounded-lg text-center">
+          <h3 class="text-xl font-semibold mb-4">Staking Solutions</h3>
+          <p class="text-gray-900">Maximize returns by staking Ether to secure and power the Ethereum network.</p>
+        </div>
+        <!-- Growth Strategies -->
+        <div class="p-6 bg-gray-200 rounded-lg text-center">
+          <h3 class="text-xl font-semibold mb-4">Growth Strategies</h3>
+          <p class="text-gray-900">Leverage advanced DeFi protocols to generate Ether and grow wealth onchain.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resources Section -->
+  <section id="resources" class="py-20 bg-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-center mb-8">Resources</h2>
+      <p class="text-lg text-gray-600 text-center max-w-3xl mx-auto">
+        Explore our collection of guides, whitepapers, and tools to deepen your understanding of the emerging onchain economy.
+      </p>
+      <ul class="text-center mt-6 space-y-4">
+        <li><a href="https://ethereum.org/en/" class="text-blue-600 hover:underline">Ethereum</a></li>
+        <li><a href="https://rocketpool.net/" class="text-blue-600 hover:underline">Rocket Pool</a></li>
+        <li><a href="https://lido.fi/" class="text-blue-600 hover:underline">Lido</a></li>
+        <li><a href="https://www.coinbase.com/en-ca/learn/crypto-basics/what-is-staking" class="text-blue-600 hover:underline">Coinbase</a></li>
+        <li><a href="https://www.kraken.com/en-ca/features/staking" class="text-blue-600 hover:underline">Kraken</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-300 text-center py-4">
+    <p>PROTOCOL BLOCKS</p>
+  </footer>
+
+  <!-- JavaScript for Smooth Scrolling -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
